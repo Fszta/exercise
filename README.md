@@ -177,7 +177,7 @@ Then run `dbt test --select stg_products`.
 ## 4. Marts Models
 Create models to perform aggregations and enrich the data.
 
-### 4.2 Example
+### 4.1 Example
 Create `daily_sales_volume.sql` model under `models/marts/`. 
 
 ```sql
@@ -192,7 +192,7 @@ group by sale_date
 
 > This model compute the number of sales per day.
 
-### 4.3 Exercise
+### 4.2 Exercise
 
 Create `daily_sales_revenue_by_category.sql` model under `models/marts/`. 
 **You need to compute the daily revenue.**
